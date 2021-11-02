@@ -11,20 +11,6 @@ Why C ?
 3. I already a hardcopy of Head First C by Griffths 
 4. I'll be learning C in my College
 
-Day 1:
 
-Geeksforgeeks:
-
-finished Basics : 1.C Language Introduction
-
-Head First C:
-
-Learned to comple and run a program through terminal
-
-Learned to write program with if else statments
-
-Learned quite about Structure of C language
-
-Learned sentinal character [\0] aka null character
 
 
