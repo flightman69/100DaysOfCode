@@ -18,6 +18,15 @@ int main()
         val = atoi(card_name); //atoi converts string to int if it's numerical
     }
 
-    printf("The card value is : %i\n", val);
+    /* Checks if the value is between 3 and 6 (inclusive) */
+    if ((val >2) && (val < 7)){
+        puts("Count has gone up");
+    }
+    /* Checks if the value is 10*/
+    else if(val == 10){
+        puts("Count has gone down");
+    }
+ 
+    //printf("The card value is : %i\n", val); 
     return 0;
  }
