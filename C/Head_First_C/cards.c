@@ -6,18 +6,18 @@ int main()
     puts("Enter the Card Name: \t");
     scanf("%2s", card_name);
     int val = 0;
-    if (card_name[0]  == 'K'){
-        val = 10;
-    } else if (card_name[0] == 'Q') {
-        val = 10;
-    } else if (card_name[0] == 'J') {
-        val = 10;
-    } else if (card_name[0] == 'A') {
-        val = 11;
-    } else {
-        val = atoi(card_name); //atoi converts string to int if it's numerical
-    }
-
+   switch(card_name[0]){
+        case 'K':
+        case 'Q':
+        case 'J':
+            val = 10;
+            break;
+        case 'A':
+            val = 11;
+            break;
+        default:
+        val = atoi(card_name);
+            } 
     /* Checks if the value is between 3 and 6 (inclusive) */
     if ((val >2) && (val < 7)){
         puts("Count has gone up");
