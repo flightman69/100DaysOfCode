@@ -11,6 +11,6 @@ Why C ?
 3. I already a hardcopy of Head First C by Griffths 
 4. I'll be learning C in my College
 
-
+# Day 11 quit geeksforgeeks since, reading 2 guide a time is bit confusing, I thaught learning 2 guides will give me two different pov but geeksforgeeks is not quite well written. So I'll be sticking with my Head First C book
 
 
