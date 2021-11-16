@@ -1,4 +1,4 @@
-#Day 15
+#Day 14
 #100DaysOfCode
 
 Head First C:
