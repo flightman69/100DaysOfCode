@@ -15,7 +15,7 @@ int main()
     cards[2] = cards[1];
     cards[1] =  a_card;
     puts(cards);
-    return 0;   
+    return 0;
 
 }
 */
@@ -32,5 +32,5 @@ int main()
     cards[2] = cards[1];
     cards[1] = a_card;
     puts(cards);
-    return(0); 
+    return(0);
 }

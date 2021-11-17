@@ -9,7 +9,7 @@ int largest(int a, int b)
 
 int main()
 {
-    int greatest = largest(100,10000);
-    printf("%i is the larges number\n", greatest);
+    int greatest = largest(500,200);
+    printf("%i is the largest number\n", greatest);
     return 0;
 }
