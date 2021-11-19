@@ -17,6 +17,9 @@ int main()
 
       if ( (latitude < -90) || (latitude > 90) )
       {
+          //printf("Invalid lagtitude: %f\n", ); //printf fowards both error & output to same screen
+          //To seperate output & error we need to use fprintf
+          //printf is a subset of fprintf 
           fprintf(stderr, "Invalid latitude: %f\n", latitude);
           return 2;
       }
@@ -25,7 +28,7 @@ int main()
           fprintf(stderr, "Invalid longitude: %f\n", longitude);
           return 2;
       }
-      
+
     printf("{latitude: %f, longitude: %f, info: '%s'}",
             latitude, longitude, info  );
   }
